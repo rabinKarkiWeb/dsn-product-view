@@ -1,0 +1,34 @@
+/* font-family: 'Be Vietnam Pro', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+
+/* .product-image {
+  box-shadow: 0px 2px 4px rgba(161, 61, 99, 0.28);
+  box-shadow: 0px 2px 4px rgba(161, 61, 99, 1);
+} */
+
+.focusClass {
+  color: red;
+}
+
+.product-card {
+  transition: all 0.2s linear;
+  border: 1px solid rgba(224, 224, 224, 0.699);
+  border-radius: 5px;
+}
+.product-card:hover {
+  box-shadow: 0px 0px 23px 0px rgba(137, 137, 137, 0.28);
+  border-radius: 5px;
+}
+.product-view-more {
+  transition: all 0.2s linear;
+}
+.product-view-more:hover {
+  box-shadow: 0px 0px 23px 0px rgba(137, 137, 137, 0.28);
+  border-radius: 5px;
+}
+
+.product-list-name {
+  color: hsl(338, 37%, 28%);
+}
